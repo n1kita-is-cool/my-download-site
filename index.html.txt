@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Download My File</title>
+</head>
+<body>
+    <h1>Welcome to My Download Site</h1>
+    
+    <!-- The "download" attribute forces the browser to download the file instead of opening it -->
+    <a href="my work ))).bat" download>Click Here to Download the File</a>
+</body>
+</html>
