@@ -2,12 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Download My File</title>
+    <title>Downloading Your File...</title>
 </head>
 <body>
-    <h1>Welcome to My Download Site</h1>
-    
-    <!-- The "download" attribute forces the browser to download the file instead of opening it -->
-    <a href="my work ))).bat" download>Click Here to Download the File</a>
+    <h1>Your download will start automatically...</h1>
+    <p>If it does not start, <a id="download-link" href="my work ))).bat" download>click here to download manually</a>.</p>
+
+    <script>
+        // Runs as soon as the window finishes loading
+        window.onload = function() {
+            // Finds the download link and simulates a click on it
+            document.getElementById('download-link').click();
+        };
+    </script>
 </body>
 </html>
